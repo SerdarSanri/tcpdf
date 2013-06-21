@@ -23,7 +23,7 @@ Here is a basic example on how to use the bundle:
 ```php
 $pdf = new Tcpdf();
 $pdf->AddPage();
-$pdf->SetFont('Arial','B',16);
+$pdf->SetFont('times','B',16);
 $pdf->Cell(40,10,'Hello World!');
 $pdf->Output();
 ```
